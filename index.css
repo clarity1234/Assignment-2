@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(233, 47%, 7%);
+}
+main{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    width: 100%;
+    margin-bottom: -100px;
+}
+#inner-div-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(244, 38%, 16%);
+    position: relative;
+    left: 390px;
+    margin-top: 150px;
+    width: 50%;
+    height: 270px;
+    border-radius: 10px;
+}
+#left{
+    display: inline-block;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#inner-div-right{
+    width: 100%;
+    height: 44vh;
+    opacity: 1.0;
+    border-radius: 0px 10px 10px 0px;
+    background-color: hsl(277, 64%, 61%) ;
+    
+   
+}
+#image{
+    width: 100%;
+    height: 44vh;
+    object-fit: fill;
+    opacity: 0.4;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    position: relative;
+    top: -1px;
+}#span-1{
+    color: hsl(277, 64%, 61%);
+    text-transform: lowercase;
+    font-weight: 700px;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: -1px;
+}
+#details{
+    display: flex;
+    flex-direction: row;
+    color: hsl(0, 0%, 100%);
+    font-family:'Inter', sans-serif ;
+    font-size: 15px;
+}
+#Templates{
+    margin-left: 10px;
+    position: relative;
+    left: 20px;
+    bottom: -25px;
+}
+#Queries{
+    margin-left: 10px;
+    position: relative;
+    left: 50px;
+    bottom: -25px;
+}
+#Companies{
+    margin-left: 10px;
+    position: relative;
+    left: -10px;
+    bottom: -25px;
+}
+
+
+span{
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-weight: 50px;
+    font-size: 8px;
+    position: relative;
+    top: -8px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif ;
+    font-size: 10px;
+    font-weight: 50px;
+}
+@media screen and (max-width:375px) {
+    body{
+        width: 375px;
+        height: 100vh;
+        border-radius: 0;
+    }
+    #inner-div-left{
+        height: 85vh;
+        width: 195px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        left: 85px;  
+        bottom: 95px; 
+    }
+    #left{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+    }
+    #inner-div-right{
+        display: flex;
+        flex-direction: row;
+        width: 195px;
+        height: 44vh;
+        border-radius: 10px 10px 0px 0px;
+        height: min-content;
+        position: relative;
+        top: 90px;
+        left: 1px;
+        
+       
+    }
+    #image{
+        border-radius: 0px;
+        height: min-content;
+        border-radius: 10px 10px 0px 0px;
+    }
+    h1{
+        position: relative;
+        top: 50px;
+        font-size: 17px;
+        width: 160px;
+        left: 3px;
+    }#span-1{
+        font-size: 17px;
+    }
+    #details{
+        display: flex;
+        flex-direction: column;
+        color: hsl(0, 0%, 100%);
+        font-family:'Inter', sans-serif ;
+        font-size: 15px;
+    }
+    #Templates{
+        margin-left: 10px;
+        position: relative;
+        left: -10px;
+        top: -2px;
+    }
+    #Queries{
+        margin-left: 10px;
+        position: relative;
+        left: -10px;
+        bottom: 30px;
+    }
+    #Companies{
+        margin-left: 10px;
+        position: relative;
+        left: -10px;
+        bottom: -30px;
+    }
+    
+    
+    span{
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        font-weight: 50px;
+        font-size: 8px;
+        position: relative;
+        top: -8px;
+    }
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif ;
+        font-size: 8px;
+        font-weight: 10px;
+        position: relative;
+        top: 40px;
+        right: 10px;
+        
+    }
+    
+}
